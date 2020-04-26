@@ -31,10 +31,15 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+/*@import "src/styles/index";*/
+
 p {
-  color: #2c3e50;
-  background-color: white;
+  font-family: $font-stack;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $obsidian-dark-1;
+  background-color: $white;
   display: inline-block;
   padding: 5px;
   margin-left: 3px;
@@ -47,8 +52,8 @@ p {
 }
 
 p:hover {
-  background-color: #2d2d2d;
-  color: #f3f3f3;
+  background-color: $obsidian-dark-1;
+  color: $white;
 }
 
 /*@media (hover:none),*/
@@ -60,7 +65,7 @@ p:hover {
 /*}*/
 
 .selectedStyle {
-  background-color: #2d2d2d;
-  color: #f3f3f3;
+  background-color: $obsidian-dark-1;
+  color: $white;
 }
 </style>
