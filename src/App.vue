@@ -20,6 +20,6 @@ export default {
 
 <style lang="scss">
 .test {
-  color: $blue;
+  color: $black;
 }
 </style>

@@ -47,7 +47,7 @@ li {
   margin: 0 10px;
 }
 a {
-  color: $blue;
+  color: $black;
   text-decoration: none;
 }
 </style>

@@ -1,8 +1,14 @@
 {
-  "name": "component-library",
-  "version": "1.1.0",
+  "name": "@mitevpi/obsidian",
+  "version": "0.0.1",
   "description": "Modular, reusable components and styles for use in web applications.",
-  "private": true,
+  "license": "MIT",
+  "repository": "mitevpi/obsidian",
+  "author": {
+    "name": "Petr Mitev",
+    "email": "p.mitevpi@gmail.com",
+    "url": "https://mitevpi.com/"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name component-library src/index.js",

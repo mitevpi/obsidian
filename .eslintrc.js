@@ -15,6 +15,7 @@ module.exports = {
     "import/no-extraneous-dependencies": "off",
     "no-console": "off",
     "no-undef": "warn",
+    "no-param-reassign": "off",
     "no-unused-vars": "warn",
     "no-underscore-dangle": "warn",
     "prettier/prettier": "warn",
